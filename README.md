@@ -128,4 +128,3 @@ You may change the "Ported for..." line by adding the following to the end of `c
 
     [params.footer]
         copyright = ""
-
