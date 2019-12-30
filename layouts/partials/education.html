@@ -5,8 +5,8 @@
     <ul class="list-unstyled resume-education-list">
         {{ range .Site.Params.resume.education.list }}
         <li class="mb-3">
-            <div class="resume-degree font-weight-bold">{{ .degree }}</div>
-            <div class="resume-degree-org text-muted">{{ .university }}</div>
+            <div class="resume-degree font-weight-bold">{{ .university }}</div>
+            <div class="resume-degree-org text-muted">{{ .degree }}</div>
             <div class="resume-degree-time text-muted">{{ .dates }}</div>
         </li>
         {{ end }}

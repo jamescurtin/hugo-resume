@@ -8,7 +8,7 @@
         {{ end }}
 
         <div class="media-body text-left">
-            <p class="mb-0">{{ .Site.Params.resume.summary.text }}</p>
+            <p class="mb-0" style="text-align: justify;">{{ .Site.Params.resume.summary.text | safeHTML }}</p>
         </div>
         <!--//media-body-->
 
